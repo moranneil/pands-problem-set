@@ -2,7 +2,7 @@
 #Solution 1 
 
 #The number is taken in as a string
-xString = input("Enter a positive integer: ")
+xString = input("Please enter a positive integer: ")
 
 #This line converts the string variable to an integer
 x = int(xString)
