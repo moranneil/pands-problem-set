@@ -20,7 +20,7 @@ There is another way the same programme could be written, the counter y starts w
 
 
 Question 2 begins-with-a-t.py
-The ask here was to find out if the current day of the week began with a T. The first thing to do here was to import the days of the week using import datetime function in Python. This assigned integers to each day of the week see table below.
+The question here is to find out if the current day of the week begins with a T. The first thing to do here was to import the days of the week using import datetime function in Python. This assigned integers to each day of the week see table below.
 
 Function Overview:
 The weekday() function of date class in datetime module, returns an integer
@@ -35,5 +35,9 @@ Friday = 4
 Saturday = 5
 Sunday = 6
 
-An if and if else can ask for the two days of the week that begin with t, the final statement print if the 1st two ifs are not true
+An if and if else asks for the two days of the week that begin with t, i.e Tue(1) and Thur(3), if either of these statements are true the program prints "Yes - today begins with a T.". If either of these statements are not true the last option is to print  the final statement prints "No - today does not begin with a T"
+
+To ensure that the if statements and else if statements were working correctly I put in different print statements and different integer values so I knew what statements were been printed given a condition was true.
+
+
 
