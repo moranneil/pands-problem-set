@@ -41,3 +41,20 @@ To ensure that the if statements and else if statements were working correctly I
 
 
 
+
+
+Question 3: divisors.py. Write a program that prints all numbers between 1,000 and 10,000 that are divisible
+by 6 but not 12.
+
+For the solution to this problem the programm uses a for loop, this for loop ran with x starting at 1000 and stopping when x was at 10000 inclusively.
+
+In the for loop the current value of x was divided by 6 and the remainder value was assigned to y, the number x was also divided by 12 and the remainder value assigned to z.
+
+An if statement was then used to check if x was divisible by 6 i.e y equal to 0 and x was not divisible by 12 i.e z was > 0, if this condition was true then print the current value of x.
+
+To keep the for loop running x was incremented by 1 and it ran until x reached 10001.
+
+The result was the program printed out all the values between 1000 and 10000 that were divisible by 6 by not by 12
+
+
+
