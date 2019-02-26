@@ -3,6 +3,7 @@
 
 #First the datetime is imported, this assigns the following integer value to each day of the week.
 #0=Monday, 1=Tuesday, 2=Wednesday, 3=Thursday, 4=Friday, 5=Saturday, 6=Sunday
+
 import datetime
 
 #The if statement determines is the current day firstly is Tue (1), then (elif) Thurs(3), if its any of these values is prints 
