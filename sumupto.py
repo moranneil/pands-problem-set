@@ -1,7 +1,14 @@
 #Neil Moran  
 #Solution Question1 sumupto.py 
 
+#Prompts the user to enter a positive integer and assigns the value to x
 x = int(input("Please enter a positive integer: "))
+
+#This while loop checks the inputed value of x to ensure it is a positive integer.
+#If it isn't it prompts the user to try again.
+while (x < 1):
+	print("This is not a positive integer! Please try again")
+	x = int(input("Please enter a positive integer: "))
 
 # y is an integer variable for the counter in the while loop
 y = 0
