@@ -1,16 +1,16 @@
 #Neil Moran  
-#Solution Question2 begins-with-t.py
+#Solution Question2 begins-with-t.py 27/03/2019
 
-#First the datetime is imported, this assigns the following integer value to each day of the week.
-#0=Monday, 1=Tuesday, 2=Wednesday, 3=Thursday, 4=Friday, 5=Saturday, 6=Sunday
+#The time module is imported.
+import time
 
-import datetime
+#Day is a string variable when the function time.strftime("%w") from the time module is evaluated using the directive %w, 
+# "%w" returns the weekday as a decimal number Sun(0), Mon(1), Tue(2), Wed(3), Thur(4), Fri(5), Sat(6), Sun(7). 
+day= time.strftime("%w")
 
-#The if statement determines is the current day firstly is Tue (1), then (elif) Thurs(3), if its any of these values is prints 
-#Yes - today begins with a T. The 3rd option in the if statement if either statement is not true (else) prints No - today does not begin with a T. 
-if datetime.datetime.today().weekday() == 1:
-  print("Yes - today begins with a T.")
-elif datetime.datetime.today().weekday() == 3:
+#The if statement evaluate the value of the string variable 'day' from the time module function time.strftime("%w"), if the value of day is either Tue(2) or Thur(4)
+#it prints "Yes - today begins with a T.", if the value of 'day' is not 2 or 4 the else in the if statement prints "No - today does not begin with a T."
+if day == "2" or day == "4":
   print("Yes - today begins with a T.")
 else:
   print("No - today does not begin with a T.")
