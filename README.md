@@ -12,7 +12,7 @@
 This is file documents my solutions each of the ten problems given in the pands-problem-set 2019
 
 
-# Question 1 sumuptp.py
+## Question1 sumupto.py
 
 This is a program that prompts for a positive integer and calculates the sum of all the number from 1 to that number, and outputs this number. The first version of the program originally took in the value enter by the user and assigned it to a string variable, the program needed another line of code to convert that string to an integer. 
 
