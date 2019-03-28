@@ -9,11 +9,12 @@ x = [0, 1, 2, 3, 4]
 #This is the new list for the squared values of x written in to a new list twopwrx
 xsqr = []
 y = 0
-
+#This for loop calculated the squared value of x and appends it to the list 'xsqr'
 for index in x[:]:
   x[y] = x[y] * x[y]
   xsqr.append(x[y])
   y = y + 1
+#The newly calculated list xsqr is plotted
 print(xsqr)
 plt.plot(xsqr)
 plt.xlabel('x = range [0-4]')
