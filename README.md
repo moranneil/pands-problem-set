@@ -1,5 +1,5 @@
  
-![Alt text](pands-problem-set/Images/Python.JPG "Python")
+![Alt text](/pands-problem-set/Images/Python.JPG "Python")
 
 
         
