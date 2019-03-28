@@ -1,4 +1,9 @@
-# pands-problem-set
+ 
+
+
+Problem Set 2019
+Programming and Scripting
+
 This is file documents my solutions each of the ten problems given in the pands-problem-set 2019
 
 Question 1 sumuptp.py
