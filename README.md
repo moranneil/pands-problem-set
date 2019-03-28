@@ -1,5 +1,5 @@
  
-![Alt text](/Images/Python.jpg?raw=true "Optional Title")
+![Alt text](/Images/Python.jpg "Python")
 
 # Problem Set 2019
 
