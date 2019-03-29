@@ -31,27 +31,25 @@ There is another way the same programme could be written, the counter y starts w
 
 
 
-## Question 2 begins-with-a-t.py
-This program checks if the current day of the week begins with a T. The first working version of this program imported the module 'datetime', this however stopped working when the program for Question 8 was written as the filename datetime.py was specified in the question. 
+## Question2 begins-with-a-t.py
+This program checks if the current day of the week begins with a T. The first working version of this program imported the module 'datetime', this however stopped working when the program for Question 8 was written as the filename datetime.py was specified in the question, once datetime.py was in the same folder as begins-with-a-t.py it caused a problem with importing the module library from the correct source. 
 
-To overcome this, the module 'time' was imported instead. THe program
+To overcome this, the module 'time' was imported instead. The program uses the function 'time.strftime' with the directive %w, this directive assigns a decmial number to each day of the week see below. 
 
-Function Overview:
-The weekday() function of date class in datetime module, returns an integer
+Sunday = 0
+Monday = 1
+Tuesday = 2
+Wednesday = 3
+Thursday = 4
+Friday = 5
+Saturday = 6
 
-corresponding to the day of the week.  Here is the mapping of integer values to the days of the week.
+The variable 'day' is assigned this decimal number, this is a string variable.
 
-Monday = 0
-Tuesday = 1
-Wednesday = 2
-Thursday = 3
-Friday = 4
-Saturday = 5
-Sunday = 6
+If statements are used to check is the variable 'day' either 2 or 4, if it is then the current day is Tuesday or Thursday and "Yes - today begins with a T." is printed to the screen. The else in the if statement is used when the first if statement is evaluated to false and "No - today does not begin with a T." is printed to the screen.
 
-An if and if else asks for the two days of the week that begin with t, i.e Tue(1) and Thur(3), if either of these statements are true the program prints "Yes - today begins with a T.". If either of these statements are not true the last option is to print  the final statement prints "No - today does not begin with a T"
 
-To ensure that the if statements and else if statements were working correctly I put in different print statements and different integer values so I knew what statements were been printed given a condition was true.
+
 
 
 
