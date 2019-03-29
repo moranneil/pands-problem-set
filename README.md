@@ -108,7 +108,7 @@ The two cases for 1 and 2 are given as printed statements below
 
 ![1 & 2](Images/primes-1-and-2.JPG "1 & 2")
 
-The while loop determines if the number entered is a prime number by dividing the number x by a number y starting with 2 and assigning it to the variable z, each time this division occurs in the while loop the if statement checks the value of the remainder z, if z is 0 after any division then the number is not a prime number and "This is not a prime number" is printed to the screen. There is a break statement in the if statement, this breaks out of the while loop after the "This is not a prime number" is printed.
+The while loop determines if the number entered is a prime number by dividing the number x by a number y and assigning it to the variable z, y = 2 at the start.  Each time this division occurs in the while loop the if statement checks the value of the remainder z, if z is 0 after any division then the number is not a prime number and "This is not a prime number" is printed to the screen. There is a break statement in the if statement, this breaks out of the while loop after the "This is not a prime number" is printed.
 
 ![While Loop](Images/primes-while-loop.JPG "While Loop")
 
