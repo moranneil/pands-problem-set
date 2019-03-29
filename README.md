@@ -48,10 +48,11 @@ Saturday = 6
 
 The variable 'day' is assigned this decimal number, this is a string variable.
 
+![Time Function](Images/begins-with-a-T-time.strtime.JPG "Time function")
+
 If statements are used to check is the variable 'day' either 2 or 4, if it is then the current day is Tuesday or Thursday and "Yes - today begins with a T." is printed to the screen. The else in the if statement is used when the first if statement is evaluated to false and "No - today does not begin with a T." is printed to the screen.
 
-
-
+![If Statement](Images/begins-with-a-T-if-statement.JPG "If Statement")
 
 
 
