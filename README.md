@@ -175,7 +175,8 @@ The datetime module was initially used to write this program but it did not work
 The date prefix variable is called prefix and the default string value for this variable is th, as this is most dates prefix.
 ![Datetime Date Prefix](Images/datetime-date-prefix.JPG "Datetime Date Prefix")
 
-The function time.strftime(%d) assignes the date number to the string variable day
+The function time.strftime(%d) assignes the date number to the string variable day.
+
 ![Datetime Day Assignment](Images/datetime-day.JPG "Datetime Day Assignment")
 
 The next few lines of code evaluate the string value of day, if its 1, 21 or 31 then prefis is changed to st and the prefix is also added to the date number on line 15
