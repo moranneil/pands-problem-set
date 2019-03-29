@@ -102,7 +102,7 @@ This program prompts the user to input a positive integer and tells the user if 
 
 Like the other programs the user is prompted for a positive integer and the while loop checks if the number is positive. It re prompts the user if it is not a positive number.
 
-![Positive Number Check](Images/primes-positive-number-check.JPG "Positive Number Check")
+![Positive Number Check](Images/primes-positive-integer-check.JPG "Positive Number Check")
 
 The two cases for 1 and 2 are given as printed statements below
 
