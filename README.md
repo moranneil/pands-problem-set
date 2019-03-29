@@ -116,6 +116,22 @@ If z is not equal to 0 after every successive division then the number is a prim
 
 Once the while loop finishes the if statement at the end checks the value of z if its not = 0 then the number is a prime number and "This is a prime" is printed to the screen.
 
-## Question6: secondstring.py
+## Question 6: secondstring.py
 
 This program takes a users input string and prints out every second word.
+
+## Question 7: squareroot.py
+
+This program takes a positive floating point number from the user and outputs its square root approximation.
+
+## Question 8: datetime.py
+
+This program outputs todays days in the format Monday, January 10th 2019 at 1:15pm
+
+## Question 9: second.py
+
+This program takes a file name given as an argument and outputs every 2nd line to the screen.
+
+## Question 10: plots.py
+
+These programs plot the function x, x<sup>2</sup>, 2<sup>x</sup> for the values of x been in the range [0-4]
