@@ -168,6 +168,16 @@ The original number and approximation is printed with suggested text, using a pr
 
 This program outputs todays days in the format Monday, January 10th 2019 at 1:15pm
 
+![Datetime Import Time](Images/datetime-import-time.JPG "Datetime Import Time")
+
+![Datetime Date Prefix](Images/datetime-date-prefix.JPG "Datetime Date Prefix")
+
+![Datetime Day Assignment](Images/datetime-day.JPG "Datetime Day Assignment")
+
+![Datetime Date Prefix Assignment](Images/datetime-date-prefix.JPG "Datetime Date Prefix Assignment")
+
+![Datetime Print](Images/datetime-print-variables.JPG "Datetime Print")
+
 ## Question 9: second.py
 
 This program takes a file name given as an argument and outputs every 2nd line to the screen.
