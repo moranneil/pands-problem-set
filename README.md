@@ -20,7 +20,7 @@ This is a program that prompts for a positive integer and calculates the sum of 
 
 The sumupto.py program is a while loop counting up and adding the sum of each of the numbers until it reaches to the entered number. This method needs three integer variables including the integer for the original number entered. 
 
-![While Loop](Images/sumupto-while-loop.JPG
+![While Loop](Images/sumupto-while-loop.JPG, "While Loop")
 
 The integer variables I used in this program are as follows:
 x is the number that is entered by the user
