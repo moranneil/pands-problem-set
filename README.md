@@ -124,9 +124,10 @@ The line below takes in the text the user inputs and assigned to the string vari
 ![Secondstring Sting Input](Images/secondstring-string-input.JPG "Secondstring Sting Input")
 
 Line 8 converts the string s to a list named list.
+
 ![Secondstring Convert String to List](Images/secondstring-convert-string-to-list.JPG "Secondstring Convert String to List")
 
-Line 16 prints every 2nd member of the list without the square brackets separated with a space. 
+Line 15 prints every 2nd member of the list without the square brackets separated with a space. 
 ![Secondstring Print](Images/secondstring-prints-every-2nd-word-on-the-list-without-brackets.JPG "Secondstring Print")
 
 ## Question 7: squareroot.py
