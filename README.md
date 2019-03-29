@@ -134,6 +134,36 @@ Line 15 prints every 2nd member of the list without the square brackets separate
 
 This program takes a positive floating point number from the user and outputs its square root approximation.
 
+The algorithim for this program was given by a video lecture from Ian McLoughlin.
+
+The first part of this program prompts the user to input a positive floating point number, this is assigned to the variable float
+
+![Squareroot Get Number](Images/squareroot-float-input.JPG "Squareroot Get Number")
+
+The floating point number is checked to ensure its a positive number if it isn't use is re prompted again.
+
+![Squareroot Number Check](Images/squareroot-float-check.JPG "Squareroot Number Check")
+
+The squareroot approximation is calculated by using the following while loop starting with an estimate(guess) of the square root value this is assigned to variable est
+
+![Squareroot Estimate Calculation](Images/squareroot-approx-calculation.JPG "Squareroot Estimate Calculation")
+
+Line 14 sets the variable est to 2, this can be any number.
+
+The while loop runs if the absolute value of the (est squared) - (the given number 'rootof') and checks its greater that 0.1, if a more accurate approximation is needed then 0.1 needs to be smaller eg .001 see line 16 above.
+
+The while loop executes the algorithm to calculate the approximation see line 18
+
+When the while loop is finished, the approximation is rounded to one decimal place in line 20.
+
+The original number and approximation is printed with suggested text, using a print command with the f option to insert the value of the variables in line 22.
+
+
+
+
+
+
+
 ## Question 8: datetime.py
 
 This program outputs todays days in the format Monday, January 10th 2019 at 1:15pm
