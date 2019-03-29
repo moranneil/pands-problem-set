@@ -16,6 +16,7 @@ while (x < 1):
 #While loop to determine if the number is even or odd by dividing by 2 an checking the remainder y, depending on the result the if statement divides by 2 or multiplies by 3 and adds 1.
 #Along with the mathematical function each if statement appends the new value of x to the same list n.
 #While loop terminates when x > 1 this allows the while loop to execute until x finally is 1 then it stops.
+#The append function was adapted from the following URL https://www.thegeekstuff.com/2013/06/python-list/
 while(x > 1):
   y = x % 2
   if y == 0:

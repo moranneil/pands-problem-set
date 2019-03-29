@@ -5,6 +5,7 @@
 s = str(input("Please enter a sentence:"))
 
 #s.split takes the string s and converts it to a list and names it list
+#This was adapted from the following URL https://stackoverflow.com/questions/743806/how-to-split-a-string-into-a-list
 list = s.split()
 
 #The print statement takes every 2nd value that is in the list named 'list' and prints every 2nd word (or string) that is separated by a space.
