@@ -118,7 +118,14 @@ Once the while loop finishes the if statement at the end checks the value of z i
 
 ## Question 6: secondstring.py
 
-This program takes a users input string and prints out every second word.
+This program takes a users input string and prints out every second word. This program 
+
+
+![Secondstring Sting Input](Images/secondstring-string-input.JPG "Secondstring Sting Input")
+
+![Secondstring Convert String to List](Images/secondstring-convert-string-to-list.JPG "Secondstring Convert String to List")
+
+![Secondstring Print](Images/secondstring-prints-every-2nd-word-on-the-list-without-brackets.JPG "Secondstring Print")
 
 ## Question 7: squareroot.py
 
