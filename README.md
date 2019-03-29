@@ -101,3 +101,13 @@ The resulting list n is printed out without the square brackets and the values a
 This program prompts the user to input a positive integer and tells the user if its a prime number.
 
 Like the other programs the user is prompted for a positive integer and the while loop checks if the number is positive. It re prompts the user if it is not a positive number.
+
+![Positive Number Check](Images/primes-positive-number-check.JPG "Positive Number Check")
+
+The two cases for 1 and 2 are given as printed statements below
+
+![1 & 2](Images/primes-1-and-2.JPG "1 & 2")
+
+
+![While Loop](Images/primes-while-loop.JPG "While Loop")
+
