@@ -120,11 +120,14 @@ Once the while loop finishes the if statement at the end checks the value of z i
 
 This program takes a users input string and prints out every second word. This program 
 
-
+The line below takes in the text the user inputs and assigned to the string variable s
 ![Secondstring Sting Input](Images/secondstring-string-input.JPG "Secondstring Sting Input")
+
+Line 8 converts the string s to a list named list.
 
 ![Secondstring Convert String to List](Images/secondstring-convert-string-to-list.JPG "Secondstring Convert String to List")
 
+Line 15 prints every 2nd member of the list without the square brackets separated with a space. 
 ![Secondstring Print](Images/secondstring-prints-every-2nd-word-on-the-list-without-brackets.JPG "Secondstring Print")
 
 ## Question 7: squareroot.py
