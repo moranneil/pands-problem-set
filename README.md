@@ -58,7 +58,7 @@ If statements are used to check is the variable 'day' either 2 or 4, if it is th
 
 
 
-## Question3: divisors.py. 
+## Question3: divisors.py
 
 This program prints all numbers between 1,000 and 10,000 that are divisible
 by 6 but not 12.
