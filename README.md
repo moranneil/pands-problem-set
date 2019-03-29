@@ -125,7 +125,7 @@ This program takes a users input string and prints out every second word. This p
 
 ![Secondstring Convert String to List](Images/secondstring-convert-string-to-list.JPG "Secondstring Convert String to List")
 
-![Secondstring Print](Images/secondstring-convert-prints-every-2nd-word-on-the-list-without-brackets.JPG "Secondstring Print")
+![Secondstring Print](Images/secondstring-prints-every-2nd-word-on-the-list-without-brackets.JPG "Secondstring Print")
 
 ## Question 7: squareroot.py
 
