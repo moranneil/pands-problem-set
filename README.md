@@ -174,7 +174,7 @@ This program outputs todays days in the format Monday, January 10th 2019 at 1:15
 
 ![Datetime Day Assignment](Images/datetime-day.JPG "Datetime Day Assignment")
 
-![Datetime Date Prefix Assignment](Images/datetime-date-prefix.JPG "Datetime Date Prefix Assignment")
+![Datetime Date Prefix Assignment](Images/datetime-day-prefix.JPG "Datetime Date Prefix Assignment")
 
 ![Datetime Print](Images/datetime-print-variables.JPG "Datetime Print")
 
