@@ -95,3 +95,9 @@ The variable y is evaluated in an if statement within the while loop and dependi
 The resulting list n is printed out without the square brackets and the values are separate by a space this is achieved by using the print command below.
 
 ![Print List](Images/collatz-print-list.JPG "Print List")
+
+## Question 5: primes.py
+
+This program prompts the user to input a positive integer and tells the user if its a prime number.
+
+Like the other programs the user is prompted for a positive integer and the while loop checks if the number is positive. It re prompts the user if it is not a positive number.
