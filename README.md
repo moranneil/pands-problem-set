@@ -168,13 +168,20 @@ The original number and approximation is printed with suggested text, using a pr
 
 This program outputs todays days in the format Monday, January 10th 2019 at 1:15pm
 
+The datetime module was initially used to write this program but it did not work with this programme filename named datetime.py, it also broke the original solution to question 2 that used datetime.py too. The solution to allow this program to be named datetime.py and be saved in the same directory was to import the time module and use functions from this module to achieve the same outcome. In line 5 below time is imported as time.
+
 ![Datetime Import Time](Images/datetime-import-time.JPG "Datetime Import Time")
 
+The date prefix variable is called prefix and the default string value for this variable is th, as this is most dates prefix.
 ![Datetime Date Prefix](Images/datetime-date-prefix.JPG "Datetime Date Prefix")
 
+The function time.strftime(%d) assignes the date number to the string variable day
 ![Datetime Day Assignment](Images/datetime-day.JPG "Datetime Day Assignment")
 
+The next few lines of code evaluate the string value of day, if its 1, 21 or 31 then prefis is changed to st and the prefix is also added to the date number on line 15
 ![Datetime Date Prefix Assignment](Images/datetime-day-prefix.JPG "Datetime Date Prefix Assignment")
+
+The same is done for 2 and 22, nd is appended on to day. 
 
 ![Datetime Print](Images/datetime-print-variables.JPG "Datetime Print")
 
