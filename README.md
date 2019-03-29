@@ -58,7 +58,7 @@ If statements are used to check is the variable 'day' either 2 or 4, if it is th
 
 
 
-## Question3: divisors.py. 
+## Question3: divisors.py
 
 This program prints all numbers between 1,000 and 10,000 that are divisible
 by 6 but not 12.
@@ -78,16 +78,20 @@ The result was the program printed (on a new line) out all the values of x betwe
 
 ## Question4: collatz.py
 
-This program prompts the user to input any positive integer, then is outputs successive values of the following calculation, if the current value was even divide it by 2 and if it was odd multiply it by three and add one.
+This program prompts the user to input any positive integer, then it outputs successive values of the following calculation, if the current value was even divide it by 2 and if it was odd multiply it by three and add one. THe program runs until the value of x reaches 1.
 
 The first task in this program was to prompt the user, take in the value entered and check it its a positive number.
 
-The while loop below checks if the value is a postive number.
+The while loop below checks if the value is a postive number, this is assigned to the integer variable x.
 
 ![Positive Number Check](Images/collatz-positive-number-check.JPG "Number Check")
 
+Once the positive integer is passed in by the user the while loop below is executed, the while loop divides the current value of x and determines if the integer is odd or even, by assigning the value of the remainder of the division to the variable y.  
 
 ![While Loop](Images/collatz-while-loop.JPG "While Loop")
 
-![Print List](Images/collatz-print-list.JPG "Print List")
+The variable y is evaluated in an if statement within the while loop and depending on if y == 0 (even) x is divided by two or (else) x is odd and is multiplied by 3 and 1 is added. The resulting new value for x is then appended to a list 'n' each time whether its even or odd. This creates a list n with all the values of x until the while loop stops running when x reaches 1.
 
+The resulting list n is printed out without the square brackets and the values are separate by a space this is achieved by using the print command below.
+
+![Print List](Images/collatz-print-list.JPG "Print List")
