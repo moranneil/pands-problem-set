@@ -134,4 +134,4 @@ This program takes a file name given as an argument and outputs every 2nd line t
 
 ## Question 10: plots.py
 
-These programs plot the function x x<sup>2</sup> 2<sup>x</sup> for the values of x been in the range [0-4]
+These programs plot the function x, x<sup>2</sup>, 2<sup>x</sup> for the values of x been in the range [0-4]
