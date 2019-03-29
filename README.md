@@ -58,7 +58,7 @@ If statements are used to check is the variable 'day' either 2 or 4, if it is th
 
 
 
-## Question 3: divisors.py. 
+## Question3: divisors.py. 
 
 This program prints all numbers between 1,000 and 10,000 that are divisible
 by 6 but not 12.
@@ -74,6 +74,20 @@ An if statement nested within the for loop was then used to evaluate if the curr
 To keep the for loop running x was incremented by 1 and it ran until x reached 10000.
 
 The result was the program printed (on a new line) out all the values of x between 1000 and 10000 that were divisible by 6 by not by 12.
+
+
+## Question4: collatz.py
+
+This program prompts the user to input any positive integer, then is outputs successive values of the following calculation, if the current value was even divide it by 2 and if it was odd multiply it by three and add one.
+
+The first task in this program was to prompt the user, take in the value entered and check it its a positive number.
+
+The while loop below checks if the value is a postive number.
+
+![Positive Number Check](Images/collatz-positive-number-check.JPG "Number Check")
+
+
+![While Loop](Images/collatz-while-loop.JPG "While Loop")
 
 
 
