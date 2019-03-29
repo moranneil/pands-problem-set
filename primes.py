@@ -35,7 +35,7 @@ while y < x:
     break
     #break is use here to stop the while loop if z = 0, the number x is not a prime number. 
   y = y + 1
-  # y is increased by 1 until the value is x is reached
+  # y is increased by 1 until the value of x is reached
 
 #If z is not equal to 0 after the while loop finishes then x is a prime number.
 if z != 0:
