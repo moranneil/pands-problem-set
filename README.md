@@ -18,7 +18,7 @@ This is a program that prompts for a positive integer and calculates the sum of 
 
 The next version of this programe prompted the user for a positive integer and assigned the value to an integer variable. This required one line of code less that the previous version, there was no need to convert the string variable to an integer. 
 
-The sumupto.py program is basically a while loop counting up and adding the sum of each of the numbers until it reaches to the entered number. This method needs three integer variables including the integer for the original number entered. 
+The sumupto.py program is essentially a while loop counting up and adding the sum of each of the numbers until it reaches to the entered number. This method needs three integer variables including the integer for the original number entered. 
 
 The integer variables I used in this program are as follows:
 x is the number that is entered by the user
@@ -31,8 +31,10 @@ There is another way the same programme could be written, the counter y starts w
 
 
 
-Question 2 begins-with-a-t.py
-The question here is to find out if the current day of the week begins with a T. The first thing to do here was to import the days of the week using import datetime function in Python. This assigned integers to each day of the week see table below.
+## Question 2 begins-with-a-t.py
+This program checks if the current day of the week begins with a T. The first working version of this program imported the module 'datetime', this however stopped working when the program for Question 8 was written as the filename datetime.py was specified in the question. 
+
+To overcome this, the module 'time' was imported instead. THe program
 
 Function Overview:
 The weekday() function of date class in datetime module, returns an integer
