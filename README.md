@@ -90,8 +90,8 @@ Once the positive integer is passed in by the user the while loop below is execu
 
 ![While Loop](Images/collatz-while-loop.JPG "While Loop")
 
-The variable y is evaluated in an if statement within the while loop and depending on if y == 0 (even) x is divided by two or else (odd) x is multiplied by 3 and 1 is added. The resulting new value for x is then appended to a list 'n' each time. This creates a list n with all the values of x until the while loop stops running when x reaches 1.
+The variable y is evaluated in an if statement within the while loop and depending on if y == 0 (even) x is divided by two or (else) x is odd and is multiplied by 3 and 1 is added. The resulting new value for x is then appended to a list 'n' each time whether its even or odd. This creates a list n with all the values of x until the while loop stops running when x reaches 1.
 
-The resulting list n is printed out without the square brackets and the values are separate by a space this is achieved by using the print command above.
+The resulting list n is printed out without the square brackets and the values are separate by a space this is achieved by using the print command below.
 
 ![Print List](Images/collatz-print-list.JPG "Print List")
