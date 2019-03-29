@@ -14,11 +14,13 @@ This is file documents my solutions each of the ten problems given in the Progra
 
 ## Question1 sumupto.py
 
-This is a program that prompts for a positive integer and calculates the sum of all the number from 1 to that number, and outputs this number. The first version of the program originally took in the value enter by the user and assigned it to a string variable, the program needed another line of code to convert that string to an integer. 
+This is a program that prompts for a positive integer and calculates the sum of all the number from 1 to that number, and outputs this number. The program also checks the inputed value to ensure its a positive number using a while loop and if is not it reprompts the user
 
-The next version of this programe prompted the user for a positive integer and assigned the value to an integer variable. This required one line of code less that the previous version, there was no need to convert the string variable to an integer. 
+![Positive Number Check](Images/sumupto-positive-number-check.JPG
 
-The sumupto.py program is essentially a while loop counting up and adding the sum of each of the numbers until it reaches to the entered number. This method needs three integer variables including the integer for the original number entered. 
+The sumupto.py program is a while loop counting up and adding the sum of each of the numbers until it reaches to the entered number. This method needs three integer variables including the integer for the original number entered. 
+
+![Positive Number Check](Images/sumupto-while-loop.JPG
 
 The integer variables I used in this program are as follows:
 x is the number that is entered by the user
