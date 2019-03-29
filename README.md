@@ -175,16 +175,25 @@ The datetime module was initially used to write this program but it did not work
 The date prefix variable is called prefix and the default string value for this variable is th, as this is most dates prefix.
 ![Datetime Date Prefix](Images/datetime-date-prefix.JPG "Datetime Date Prefix")
 
-The function time.strftime(%d) assigns the date number to the string variable day, see line 11 below.
+The function time.strftime(%d) assigns the date number to the string variable 'day', see line 11 below.
 
 ![Datetime Day Assignment](Images/datetime-day.JPG "Datetime Day Assignment")
 
-The next few lines of code evaluate the string value of day, if its 1, 21 or 31 then prefis is changed to st and the prefix is also added to the date number on line 15
+The next few lines of code evaluate the string value of day, if its 1, 21 or 31 then prefix is changed to st and the prefix is also added to the date number variable 'day' on line 15
 ![Datetime Date Prefix Assignment](Images/datetime-day-prefix.JPG "Datetime Date Prefix Assignment")
 
-The same is done for 2 and 22, nd is appended on to day. 
+The same is done for 2 and 22, nd is appended on to the date variable 'day'. The same is done for the 3, 23, rd is appended to the variable 'day'. the else at the end of the if statements appends the th prefix to the day number. 
 
 ![Datetime Print](Images/datetime-print-variables.JPG "Datetime Print")
+
+In the last section of the program a few new variables are constructed to give th correct requested date format in the question.
+
+daymonth is created to display the day name and month, example January, Monday. see line 30
+year is just the year expressed as a 4 digit number, see line 32
+time is expressed as hr and minute with a colon between them, AM or PM s also appended to the right of the variable.
+
+Finally all the string variables are printed toghether in order with an at between year and time see line 37 above
+
 
 ## Question 9: second.py
 
