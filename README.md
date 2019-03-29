@@ -89,5 +89,5 @@ The while loop below checks if the value is a postive number.
 
 ![While Loop](Images/collatz-while-loop.JPG "While Loop")
 
-
+![Print List](Images/collatz-print-list.JPG "Print List")
 
