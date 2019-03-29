@@ -32,7 +32,7 @@ There is another way the same programme could be written, the counter y starts w
 
 
 ## Question 2 begins-with-a-t.py
-This program checks if the current day of the week begins with a T. The first working version of this program imported the module datetime, this however stopped working when the program for Question 8 was written as the filename datetime.py was specified in the question. 
+This program checks if the current day of the week begins with a T. The first working version of this program imported the module 'datetime', this however stopped working when the program for Question 8 was written as the filename datetime.py was specified in the question. 
 
 To overcome this, the module 'time' was imported instead. THe program
 
