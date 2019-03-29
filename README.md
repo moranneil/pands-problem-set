@@ -14,11 +14,13 @@ This is file documents my solutions each of the ten problems given in the Progra
 
 ## Question1 sumupto.py
 
-This is a program that prompts for a positive integer and calculates the sum of all the number from 1 to that number, and outputs this number. The first version of the program originally took in the value enter by the user and assigned it to a string variable, the program needed another line of code to convert that string to an integer. 
+This is a program that prompts for a positive integer and calculates the sum of all the number from 1 to that number, and outputs this number. The program also checks the inputed value to ensure its a positive number using a while loop and if is not it reprompts the user
 
-The next version of this programe prompted the user for a positive integer and assigned the value to an integer variable. This required one line of code less that the previous version, there was no need to convert the string variable to an integer. 
+![Positive Number Check](Images/sumupto-positive-number-check.JPG
 
-The sumupto.py program is essentially a while loop counting up and adding the sum of each of the numbers until it reaches to the entered number. This method needs three integer variables including the integer for the original number entered. 
+The sumupto.py program is a while loop counting up and adding the sum of each of the numbers until it reaches to the entered number. This method needs three integer variables including the integer for the original number entered. 
+
+![Positive Number Check](Images/sumupto-while-loop.JPG
 
 The integer variables I used in this program are as follows:
 x is the number that is entered by the user
@@ -31,44 +33,44 @@ There is another way the same programme could be written, the counter y starts w
 
 
 
-## Question 2 begins-with-a-t.py
-This program checks if the current day of the week begins with a T. The first working version of this program imported the module 'datetime', this however stopped working when the program for Question 8 was written as the filename datetime.py was specified in the question. 
+## Question2 begins-with-a-t.py
+This program checks if the current day of the week begins with a T. The first working version of this program imported the module 'datetime', this however stopped working when the program for Question 8 was written as the filename datetime.py was specified in the question, once datetime.py was in the same folder as begins-with-a-t.py it caused a problem with importing the module library from the correct source. 
 
-To overcome this, the module 'time' was imported instead. THe program
+To overcome this, the module 'time' was imported instead. The program uses the function 'time.strftime' with the directive %w, this directive assigns a decmial number to each day of the week see below. 
 
-Function Overview:
-The weekday() function of date class in datetime module, returns an integer
+Sunday = 0
+Monday = 1
+Tuesday = 2
+Wednesday = 3
+Thursday = 4
+Friday = 5
+Saturday = 6
 
-corresponding to the day of the week.  Here is the mapping of integer values to the days of the week.
+The variable 'day' is assigned this decimal number, this is a string variable.
 
-Monday = 0
-Tuesday = 1
-Wednesday = 2
-Thursday = 3
-Friday = 4
-Saturday = 5
-Sunday = 6
-
-An if and if else asks for the two days of the week that begin with t, i.e Tue(1) and Thur(3), if either of these statements are true the program prints "Yes - today begins with a T.". If either of these statements are not true the last option is to print  the final statement prints "No - today does not begin with a T"
-
-To ensure that the if statements and else if statements were working correctly I put in different print statements and different integer values so I knew what statements were been printed given a condition was true.
+If statements are used to check is the variable 'day' either 2 or 4, if it is then the current day is Tuesday or Thursday and "Yes - today begins with a T." is printed to the screen. The else in the if statement is used when the first if statement is evaluated to false and "No - today does not begin with a T." is printed to the screen.
 
 
 
 
 
-Question 3: divisors.py. Write a program that prints all numbers between 1,000 and 10,000 that are divisible
+
+
+
+## Question 3: divisors.py. 
+
+This program prints all numbers between 1,000 and 10,000 that are divisible
 by 6 but not 12.
 
-For the solution to this problem the programm uses a for loop, this for loop ran with x starting at 1000 and stopping when x was at 10000 inclusively.
+For the solution to this problem the programm uses a for loop, this for loop ran with x starting at 1000 and stopping when x was at 10000 inclusively, 10001 had to be coded in the for loop range.
 
 In the for loop the current value of x was divided by 6 and the remainder value was assigned to y, the number x was also divided by 12 and the remainder value assigned to z.
 
-An if statement was then used to check if x was divisible by 6 i.e y equal to 0 and x was not divisible by 12 i.e z was > 0, if this condition was true then print the current value of x.
+An if statement within the for loop was then used to evaluate if the current value of y was equal to 0 and z was not equal to 0, if both conditions were true then the current value of x is divisible by 6 and not divisible by 12, the current value is x is printed to the screen.  
 
-To keep the for loop running x was incremented by 1 and it ran until x reached 10001.
+To keep the for loop running x was incremented by 1 and it ran until x reached 10000.
 
-The result was the program printed out all the values between 1000 and 10000 that were divisible by 6 by not by 12
+The result was the program printed (on a new line) out all the values of x between 1000 and 10000 that were divisible by 6 by not by 12.
 
 
 
