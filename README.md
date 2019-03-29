@@ -58,20 +58,36 @@ If statements are used to check is the variable 'day' either 2 or 4, if it is th
 
 
 
-## Question 3: divisors.py. 
+## Question3: divisors.py. 
 
 This program prints all numbers between 1,000 and 10,000 that are divisible
 by 6 but not 12.
 
-For the solution to this problem the programm uses a for loop, this for loop ran with x starting at 1000 and stopping when x was at 10000 inclusively, 10001 had to be coded in the for loop range.
+The solution to this problem the program uses a for loop, this for loop runs with x starting at 1000 and stopping when x was at 10000 inclusively, 10001 had to be coded in the for loop range. See image of the for loop below
 
-In the for loop the current value of x was divided by 6 and the remainder value was assigned to y, the number x was also divided by 12 and the remainder value assigned to z.
+![For Loop](Images/divisors-for-loop.JPG "For Loop")
 
-An if statement within the for loop was then used to evaluate if the current value of y was equal to 0 and z was not equal to 0, if both conditions were true then the current value of x is divisible by 6 and not divisible by 12, the current value is x is printed to the screen.  
+In the for loop the current value of x was divided by 6 and the remainder value was assigned to y, the number x was also divided by 12 and the remainder value assigned to z. y and z are given initial values of 0 before the for loop is executed.
+
+An if statement nested within the for loop was then used to evaluate if the current value of y was equal to 0 and z was not equal to 0, if both conditions were true then the current value of x is divisible by 6 and not divisible by 12, the current value is x is printed to the screen.  
 
 To keep the for loop running x was incremented by 1 and it ran until x reached 10000.
 
 The result was the program printed (on a new line) out all the values of x between 1000 and 10000 that were divisible by 6 by not by 12.
+
+
+## Question4: collatz.py
+
+This program prompts the user to input any positive integer, then is outputs successive values of the following calculation, if the current value was even divide it by 2 and if it was odd multiply it by three and add one.
+
+The first task in this program was to prompt the user, take in the value entered and check it its a positive number.
+
+The while loop below checks if the value is a postive number.
+
+![Positive Number Check](Images/collatz-positive-number-check.JPG "Number Check")
+
+
+![While Loop](Images/collatz-while-loop.JPG "While Loop")
 
 
 
