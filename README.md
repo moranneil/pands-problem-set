@@ -226,7 +226,7 @@ The programs are discussed below
 
 ### plot-x.py
 
-This program takes starts by importing matplotlib.pyplot as plt see line 4. x is a list of numbers in the range 0-4. The full list x e is plotted using the code on line 8.
+This program starts by importing matplotlib.pyplot as plt see line 4. x is a list of numbers in the range 0-4. The full list x is plotted using the code on line 8.
 
 ![Plot-x](Images/plot-x.JPG "Plot-x")
 
@@ -246,7 +246,7 @@ In line 18 the newly squared list is plotted.
 
 ![Plot-x<sup>2</sup>](Images/plot-x-squared.JPG "Plot-x<sup>2</sup>")
 
-Lines 19 & 20 label the the x and y axis respectively. Line 21 displays the plot. 
+Lines 19 & 20 label the x and y axis respectively. Line 21 displays the plot. 
 See diagram below.
 
 ![Plot x<sup>2</sup> Graph](Images/plot-x-squared-graph.JPG "Plot x<sup>2</sup> Graph")
@@ -257,7 +257,7 @@ This program starts by importing matplotlib.pyplot as plt see line 5. x is a lis
 
 The for loop on line 15 loops through the values in the list x and calculates 2 to the pwr of each value of x, each value as its calculated is appended to the new list 'twopwrx' see line 18. The variable y counts through the members in the list each time the for loop runs.
 
-In line 22 the newly squared list is plotted.
+In line 22 the newly calculated list is plotted.
 
 ![Plot-2<sup>x</sup>](Images/plot-2-to-the-pwr-of-x.JPG "Plot-2<sup>x</sup>")
 
