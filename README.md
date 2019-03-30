@@ -230,7 +230,19 @@ The programs are discussed below
 ![Plot-x](Images/plot-x.JPG "Plot-x")
 
 
-### plot-x-squared.py
+![Plot-x-Graph](Images/plot-x-graph.JPG "Plot-x-Graph")
+
+
+### plot-x<sup>2</sup>.py
+
+![Plot-x<sup>2</sup>](Images/plot-x-squared.JPG "Plot-x<sup>2</sup>")
+
+
+![Plot x<sup>2</sup> Graph](Images/plot-x-squared-graph.JPG "Plot x<sup>2</sup> Graph")
 
 ### plot-2-to-the-pwr-x.py
+
+![Plot-2<sup>x</sup>](Images/plot-2-to-the-pwr-of-x.JPG "Plot-2<sup>x</sup>")
+
+![Plot-2<sup>x</sup> Graph](Images/plot-2-to-the-pwr-of-x-graph.JPG "Plot-2<sup>x</sup> Graph")
 
