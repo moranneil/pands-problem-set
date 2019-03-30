@@ -13,7 +13,7 @@ This file documents my solutions to each of the ten problems given in the Progra
 
 ## Question 1 sumupto.py
 
-This is a program that prompts for a positive integer and calculates the sum of all the numbers from 1 to that number and outputs this number. The program also checks the inputted value to ensure its a positive number using a while loop and if is not it re-prompts the user to enter a positive integer.
+This is a program that prompts for a positive integer, calculates the sum of all the numbers from 1 to that number and outputs this number. The program also checks the inputted value to ensure its a positive number using a while loop and if is not it re-prompts the user to enter a positive integer.
 
 ![Positive Number Check](Images/sumupto-positive-number-check.JPG "Number Check")
 
