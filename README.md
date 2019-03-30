@@ -227,8 +227,12 @@ The programs are discussed below
 
 ### plot-x.py
 
+This program takes starts by importing matplotlib.pyplot as plt see line 4. x is a list of numbers in the range 0-4. The full list x e is plotted using the code on line 8.
+
 ![Plot-x](Images/plot-x.JPG "Plot-x")
 
+Lines 9 & 10 label the the x and y axis respectively. Line 11 displays the plot. 
+See diagram below.
 
 ![Plot-x-Graph](Images/plot-x-graph.JPG "Plot-x-Graph")
 
@@ -240,7 +244,7 @@ The programs are discussed below
 
 ![Plot x<sup>2</sup> Graph](Images/plot-x-squared-graph.JPG "Plot x<sup>2</sup> Graph")
 
-### plot-2-to-the-pwr-x.py
+### plot-2<sup>x</sup>.py
 
 ![Plot-2<sup>x</sup>](Images/plot-2-to-the-pwr-of-x.JPG "Plot-2<sup>x</sup>")
 
