@@ -199,7 +199,12 @@ Finally all the string variables are printed together in order with the text 'at
 
 This program takes a file name given as an argument and outputs every 2nd line to the screen.
 
+To allow the program to take an argument that the user enters the sys module is imported see line 5 below.
+
 ![second import sys](Images/second-import-sys.JPG "second import sys")
+
+The variable 'file' is assigned the 2nd argument after the program filename. 
+For example from the command 'python second.py moby-dick.txt', the variable 'file' will be assigned moby-dick.txt
 
 ![second file argument](Images/second-filename-argument.JPG "second file argument")
 
