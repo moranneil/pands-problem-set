@@ -62,7 +62,7 @@ If statements are used to check is the variable 'day' either 2 or 4, if it is th
 This program prints all numbers between 1,000 and 10,000 that are divisible
 by 6 but not 12.
 
-The solution to this problem the program uses a for loop, this for loop runs with x starting at 1000 and stopping when x was at 10000 inclusively, 10001 had to be coded in the for loop range. See image of the for loop below
+The solution to this problem uses a for loop, this for loop runs with x starting at 1000 and stopping when x is 10000 inclusively, 10001 had to be coded in the for loop range. See image of the for loop below
 
 ![For Loop](Images/divisors-for-loop.JPG "For Loop")
 
