@@ -227,8 +227,11 @@ The programs are discussed below
 
 ### plot-x.py
 
+This program takes starts by importing matplotlib.pyplot as plt see line 4. x is a list of numbers in the range 0-4. For each value of list x the value is plotted using the code on line 8. 
 ![Plot-x](Images/plot-x.JPG "Plot-x")
 
+Lines 9 & 10 label the the x and y axis respectivitely. Line 11 shows the plot. 
+See diagram below.
 
 ![Plot-x-Graph](Images/plot-x-graph.JPG "Plot-x-Graph")
 
