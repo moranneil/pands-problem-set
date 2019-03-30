@@ -187,11 +187,11 @@ The same is done for 2 and 22, nd is appended on to the date variable 'day'. The
 
 In the last section of the program a few new variables are constructed to give the correct requested date and time format in the question.
 
-The variable 'daymonth' is created to display the month and day name, example January, Monday. see line 30
-The variable 'year' is just the year expressed as a 4 digit number, see line 32
-The variable 'time' is expressed as hr and minute with a colon between them, AM or PM is also appended to the right of the variable.
+The variable 'daymonth' is created to display the month and day name, for example January, Monday, see line 30.
+The variable 'year' is the year expressed as a 4 digit number, see line 32.
+The variable 'time' is expressed as hr and minute with a colon between them, AM or PM is also appended to the right of the variable, see line 34.
 
-Finally all the string variables are printed together in order with the text 'at' between the 'year' and 'time' variables see line 37 above
+Finally all the string variables are printed together in order with the text 'at' between the 'year' and 'time' variables see line 37 above.
 
 
 ## Question 9: second.py
