@@ -37,13 +37,13 @@ This program checks if the current day of the week begins with a T. The first wo
 
 To overcome this, the module 'time' was imported instead. The program uses the function 'time.strftime' with the directive %w, this directive assigns a decmial number to each day of the week see below. 
 
-Sunday = 0
-Monday = 1
-Tuesday = 2
-Wednesday = 3
-Thursday = 4
-Friday = 5
-Saturday = 6
+Sunday = 0,
+Monday = 1,
+Tuesday = 2,
+Wednesday = 3,
+Thursday = 4,
+Friday = 5,
+Saturday = 6,
 
 The variable 'day' is assigned this decimal number, this is a string variable.
 
