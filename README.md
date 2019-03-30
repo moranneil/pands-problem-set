@@ -117,7 +117,7 @@ Once the while loop finishes the if statement at the end checks the value of z i
 
 ## Question 6: secondstring.py
 
-This program takes a users input string and prints out every second word. This program 
+This program takes a users input string and prints out every second word.
 
 The line below takes in the text the user inputs and assigned to the string variable s
 ![Secondstring Sting Input](Images/secondstring-string-input.JPG "Secondstring Sting Input")
