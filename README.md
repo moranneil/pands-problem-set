@@ -208,3 +208,19 @@ This program takes a file name given as an argument and outputs every 2nd line t
 ## Question 10: plots.py
 
 These programs plot the function x, x<sup>2</sup>, 2<sup>x</sup> for the values of x been in the range [0-4]
+
+To achieve this three programs were written for each function given in the question x, x<sup>2</sup>, 2<sup>x</sup>.
+
+The programs are saved in the folder Question10-Plots and are called
+1. plot-x.py
+2. plot-x-squared.py
+3. plot-2-to-the-pwr-x.py
+
+The programs are discussed below
+
+### plot-x.py
+
+### plot-x-squared.py
+
+### plot-2-to-the-pwr-x.py
+
