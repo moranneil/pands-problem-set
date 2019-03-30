@@ -15,7 +15,6 @@ for index in x[:]:
   xsqr.append(x[y])
   y = y + 1
 #The newly calculated list xsqr is plotted
-print(xsqr)
 plt.plot(xsqr)
 plt.xlabel('x = range [0-4]')
 plt.ylabel('Function x squared')
