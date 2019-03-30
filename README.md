@@ -135,7 +135,7 @@ This program takes a positive floating point number from the user and outputs it
 
 The algorithim for this program was given by a video lecture by Ian McLoughlin.
 
-The first part of this program prompts the user to input a positive floating point number, this is assigned to the variable float
+The first part of this program prompts the user to input a positive floating point number, this is assigned to the variable rootof
 
 ![Squareroot Get Number](Images/squareroot-float-input.JPG "Squareroot Get Number")
 
