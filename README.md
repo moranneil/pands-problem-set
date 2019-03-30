@@ -133,13 +133,13 @@ Line 15 prints every 2nd member of the list without the square brackets separate
 
 This program takes a positive floating point number from the user and outputs its square root approximation.
 
-The algorithim for this program was given by a video lecture from Ian McLoughlin.
+The algorithim for this program was given by a video lecture by Ian McLoughlin.
 
 The first part of this program prompts the user to input a positive floating point number, this is assigned to the variable float
 
 ![Squareroot Get Number](Images/squareroot-float-input.JPG "Squareroot Get Number")
 
-The floating point number is checked to ensure its a positive number if it isn't use is re prompted again.
+The floating point number is checked to ensure its a positive number if it isn't the user is re-prompted again.
 
 ![Squareroot Number Check](Images/squareroot-float-check.JPG "Squareroot Number Check")
 
