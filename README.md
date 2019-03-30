@@ -199,12 +199,35 @@ Finally all the string variables are printed together in order with the text 'at
 
 This program takes a file name given as an argument and outputs every 2nd line to the screen.
 
+To allow the program to take an argument that the user enters the sys module is imported see line 5 below.
+
 ![second import sys](Images/second-import-sys.JPG "second import sys")
 
+The variable 'file' is assigned the 2nd argument after the program filename. 
+For example from the command 'python second.py moby-dick.txt', the variable 'file' will be assigned 'moby-dick.txt'. See line 10 below
+
 ![second file argument](Images/second-filename-argument.JPG "second file argument")
+
+The next few lines of code open the variable 'file' as 'f', this is done the recommended way to open a file with the 'with' function see line 13. A variable 'linenumber' is assigned and set to 0, this will keeptrack of the lines read in the file. The for loop on line 17 reads in each line of the file 'f' that was opened, for each line that is read the carraige return is removed using the code in line 19. To print every 2nd line the if statement on line 21 checks if the current value of the variable 'linenumber' is odd or even, if its even it prints that line to the screen. As a result lines 0, 2, 4 ,6 etc are printed to the screen. The odd linenumbers can be printed instead by modyfing this if statement. Finally line 24 increases the value of linenumber by 1 each time the for loop executes until the last line is read from the file 'f'
 
 ![second read-file-print-every-2nd-line](Images/second-open-read-print-every-2nd-line.JPG "second read-file-print-every-2nd-line")
 
 ## Question 10: plots.py
 
 These programs plot the function x, x<sup>2</sup>, 2<sup>x</sup> for the values of x been in the range [0-4]
+
+To achieve this three programs were written for each function given in the question x, x<sup>2</sup>, 2<sup>x</sup>.
+
+The programs are saved in the folder Question10-Plots and are called
+1. plot-x.py
+2. plot-x-squared.py
+3. plot-2-to-the-pwr-x.py
+
+The programs are discussed below
+
+### plot-x.py
+
+### plot-x-squared.py
+
+### plot-2-to-the-pwr-x.py
+
