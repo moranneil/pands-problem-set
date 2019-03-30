@@ -21,5 +21,5 @@ for index in x[:]:
 #This section plots and shows the new list 'twopwrx' , labels the x and y axis, and finally the graph of the new list 'twopwrx' 
 plt.plot(twopwrx)
 plt.xlabel('x = range [0-4]')
-plt.ylabel('Function x to the power')
+plt.ylabel('Function 2 to the power of x')
 plt.show()
