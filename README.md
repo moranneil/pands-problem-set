@@ -199,6 +199,12 @@ Finally all the string variables are printed together in order with the text 'at
 
 This program takes a file name given as an argument and outputs every 2nd line to the screen.
 
+![second import sys](Images/second-import-sys.JPG "second import sys")
+
+![second file argument](Images/second-filename-argument.JPG "second file argument")
+
+![second read-file-print-every-2nd-line](Images/second-open-read-print-every-2nd-line.JPG "second read-file-print-every-2nd-line")
+
 ## Question 10: plots.py
 
 These programs plot the function x, x<sup>2</sup>, 2<sup>x</sup> for the values of x been in the range [0-4]
