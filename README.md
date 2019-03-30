@@ -240,7 +240,7 @@ The programs are discussed below
 
 ![Plot x<sup>2</sup> Graph](Images/plot-x-squared-graph.JPG "Plot x<sup>2</sup> Graph")
 
-### plot-2-to-the-pwr-x.py
+### plot-2<sup>x</sup>.py
 
 ![Plot-2<sup>x</sup>](Images/plot-2-to-the-pwr-of-x.JPG "Plot-2<sup>x</sup>")
 
