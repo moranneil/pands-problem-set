@@ -111,7 +111,7 @@ The while loop determines if the number entered is a prime number by dividing th
 
 ![Primes While Loop](Images/primes-while-loop.JPG "Primes While Loop")
 
-If z is not equal to 0 after every successive division then the number is a prime number, the while loop exits when y is no longer less that x as mentioned, it is incremented by 1 every time the while loop executes.
+If z is not equal to 0 after every successive division then the number is a prime number, the while loop exits when y is no longer less that x, as mentioned it is incremented by 1 every time the while loop executes.
 
 Once the while loop finishes the if statement at the end checks the value of z if its not = 0 then the number is a prime number and "This is a prime" is printed to the screen.
 
