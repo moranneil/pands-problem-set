@@ -12,7 +12,7 @@
 This is file documents my solutions each of the ten problems given in the Programming and Scripting Problem Set 2019
 
 
-## Question1 sumupto.py
+## Question 1 sumupto.py
 
 This is a program that prompts for a positive integer and calculates the sum of all the number from 1 to that number, and outputs this number. The program also checks the inputed value to ensure its a positive number using a while loop and if is not it reprompts the user
 
@@ -33,7 +33,7 @@ There is another way the same program could be written, the counter y starts wit
 
 
 
-## Question2 begins-with-a-t.py
+## Question 2 begins-with-a-t.py
 This program checks if the current day of the week begins with a T. The first working version of this program imported the module 'datetime', this however stopped working when the program for Question 8 was written as the filename datetime.py was specified in the question, once datetime.py was in the same folder as begins-with-a-t.py it caused a problem with importing the module library from the correct source. 
 
 To overcome this, the module 'time' was imported instead. The program uses the function 'time.strftime' with the directive %w, this directive assigns a decmial number to each day of the week see below. 
@@ -58,7 +58,7 @@ If statements are used to check is the variable 'day' either 2 or 4, if it is th
 
 
 
-## Question3: divisors.py
+## Question 3: divisors.py
 
 This program prints all numbers between 1,000 and 10,000 that are divisible
 by 6 but not 12.
@@ -76,7 +76,7 @@ To keep the for loop running x was incremented by 1 and it ran until x reached 1
 The result was the program printed (on a new line) out all the values of x between 1000 and 10000 that were divisible by 6 by not by 12.
 
 
-## Question4: collatz.py
+## Question 4: collatz.py
 
 This program prompts the user to input any positive integer, then it outputs successive values of the following calculation, if the current value was even divide it by 2 and if it was odd multiply it by three and add one. THe program runs until the value of x reaches 1.
 
