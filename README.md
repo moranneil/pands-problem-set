@@ -254,10 +254,16 @@ See diagram below.
 
 ### plot-2<sup>x</sup>.py
 
+This program starts by importing matplotlib.pyplot as plt see line 5. x is a list of numbers in the range 0-4. A new list variable 'twopwrx' is created and a new variable y is also created.
 
+The for loop on line 15 loops through the values in the list x and calculates 2 to the pwr of each value of x, each value as its calculated is appended to the new list 'twopwrx' see line 18. The variable y counts through the members in the list each time the for loop runs.
 
+In line 22 the newly squared list is plotted.
 
 ![Plot-2<sup>x</sup>](Images/plot-2-to-the-pwr-of-x.JPG "Plot-2<sup>x</sup>")
+
+Lines 23 & 24 label the the x and y axis respectively. Line 25 displays the plot. 
+See diagram below.
 
 ![Plot-2<sup>x</sup> Graph](Images/plot-2-to-the-pwr-of-x-graph.JPG "Plot-2<sup>x</sup> Graph")
 
