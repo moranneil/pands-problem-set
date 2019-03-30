@@ -28,7 +28,7 @@ y is used as a counter for the while loop, each time the while loop is executed 
 z is the summed total of the number, the new value of y is added to this each time the while loop executes until y <= x is reached.
 When y <= x exit the while loop and print z.
 
-There is another way the same programme could be written, the counter y starts with the entered number and counts down towards and including 1 this program would have needed one less variable.
+There is another way the same program could be written, the counter y starts with the entered number and counts down towards and including 1 this program would have needed one less variable.
 
 
 
@@ -168,7 +168,7 @@ The original number and approximation is printed with suggested text, using a pr
 
 This program outputs todays days in the format Monday, January 10th 2019 at 1:15pm
 
-The datetime module was initially used to write this program but it did not work with this programme filename named datetime.py, it also broke the original solution to question2 that used the datetime module too. The solution to allow this program to be named datetime.py and be saved in the same directory was to import the time module and use functions from this module to achieve the same outcome. In line 5 below time is imported as time.
+The datetime module was initially used to write this program but it did not work with this program filename named datetime.py, it also broke the original solution to question2 that used the datetime module too. The solution to allow this program to be named datetime.py and be saved in the same directory was to import the time module and use functions from this module to achieve the same outcome. In line 5 below time is imported as time.
 
 ![Datetime Import Time](Images/datetime-import-time.JPG "Datetime Import Time")
 
