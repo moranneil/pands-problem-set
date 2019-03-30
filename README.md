@@ -227,6 +227,9 @@ The programs are discussed below
 
 ### plot-x.py
 
+![Plot-x](Images/plot-x.JPG "Plot-x")
+
+
 ### plot-x-squared.py
 
 ### plot-2-to-the-pwr-x.py
