@@ -12,7 +12,7 @@
 This is file documents my solutions each of the ten problems given in the Programming and Scripting Problem Set 2019
 
 
-## Question1 sumupto.py
+## Question 1 sumupto.py
 
 This is a program that prompts for a positive integer and calculates the sum of all the number from 1 to that number, and outputs this number. The program also checks the inputed value to ensure its a positive number using a while loop and if is not it reprompts the user
 
@@ -28,12 +28,12 @@ y is used as a counter for the while loop, each time the while loop is executed 
 z is the summed total of the number, the new value of y is added to this each time the while loop executes until y <= x is reached.
 When y <= x exit the while loop and print z.
 
-There is another way the same programme could be written, the counter y starts with the entered number and counts down towards and including 1 this program would have needed one less variable.
+There is another way the same program could be written, the counter y starts with the entered number and counts down towards and including 1 this program would have needed one less variable.
 
 
 
 
-## Question2 begins-with-a-t.py
+## Question 2 begins-with-a-t.py
 This program checks if the current day of the week begins with a T. The first working version of this program imported the module 'datetime', this however stopped working when the program for Question 8 was written as the filename datetime.py was specified in the question, once datetime.py was in the same folder as begins-with-a-t.py it caused a problem with importing the module library from the correct source. 
 
 To overcome this, the module 'time' was imported instead. The program uses the function 'time.strftime' with the directive %w, this directive assigns a decmial number to each day of the week see below. 
@@ -58,7 +58,7 @@ If statements are used to check is the variable 'day' either 2 or 4, if it is th
 
 
 
-## Question3: divisors.py
+## Question 3: divisors.py
 
 This program prints all numbers between 1,000 and 10,000 that are divisible
 by 6 but not 12.
@@ -76,7 +76,7 @@ To keep the for loop running x was incremented by 1 and it ran until x reached 1
 The result was the program printed (on a new line) out all the values of x between 1000 and 10000 that were divisible by 6 by not by 12.
 
 
-## Question4: collatz.py
+## Question 4: collatz.py
 
 This program prompts the user to input any positive integer, then it outputs successive values of the following calculation, if the current value was even divide it by 2 and if it was odd multiply it by three and add one. THe program runs until the value of x reaches 1.
 
@@ -167,6 +167,33 @@ The original number and approximation is printed with suggested text, using a pr
 ## Question 8: datetime.py
 
 This program outputs todays days in the format Monday, January 10th 2019 at 1:15pm
+
+The datetime module was initially used to write this program but it did not work with this program filename named datetime.py, it also broke the original solution to question2 that used the datetime module too. The solution to allow this program to be named datetime.py and be saved in the same directory was to import the time module and use functions from this module to achieve the same outcome. In line 5 below time is imported as time.
+
+![Datetime Import Time](Images/datetime-import-time.JPG "Datetime Import Time")
+
+The date prefix variable is called prefix and the default string value for this variable is th, as this is most dates prefix.
+![Datetime Date Prefix](Images/datetime-date-prefix.JPG "Datetime Date Prefix")
+
+The function time.strftime(%d) assigns the date number to the string variable 'day', see line 11 below.
+
+![Datetime Day Assignment](Images/datetime-day.JPG "Datetime Day Assignment")
+
+The next few lines of code evaluate the string value of day, if its 1, 21 or 31 then prefix is changed to st and the prefix is also added to the date number variable 'day' on line 15
+![Datetime Date Prefix Assignment](Images/datetime-day-prefix.JPG "Datetime Date Prefix Assignment")
+
+The same is done for 2 and 22, nd is appended on to the date variable 'day'. The same is done for the 3, 23, rd is appended to the variable 'day'. the else at the end of the if statements appends the th prefix to the day number. 
+
+![Datetime Print](Images/datetime-print-variables.JPG "Datetime Print")
+
+In the last section of the program a few new variables are constructed to give the correct requested date and time format in the question.
+
+The variable 'daymonth' is created to display the month and day name, example January, Monday. see line 30
+The variable 'year' is just the year expressed as a 4 digit number, see line 32
+The variable 'time' is expressed as hr and minute with a colon between them, AM or PM is also appended to the right of the variable.
+
+Finally all the string variables are printed together in order with the text 'at' between the 'year' and 'time' variables see line 37 above
+
 
 ## Question 9: second.py
 
