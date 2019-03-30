@@ -165,7 +165,7 @@ The original number and approximation is printed with suggested text, using a pr
 
 ## Question 8: datetime.py
 
-This program outputs todays days in the format Monday, January 10th 2019 at 1:15pm
+This program outputs todays date and time in the format Monday, January 10th 2019 at 1:15pm
 
 The datetime module was initially used to write this program but it did not work with this program filename named datetime.py, it also broke the original solution to question2 that used the datetime module too. The solution to allow this program to be named datetime.py and be saved in the same directory was to import the time module and use functions from this module to achieve the same outcome. In line 5 below time is imported as time.
 
