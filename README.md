@@ -8,7 +8,7 @@
 
 ## Programming and Scripting
 
-This is file documents my solutions each of the ten problems given in the Programming and Scripting Problem Set 2019
+This file documents my solutions to each of the ten problems given in the Programming and Scripting Problem Set 2019
 
 
 ## Question 1 sumupto.py
