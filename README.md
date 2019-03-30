@@ -186,13 +186,13 @@ The same is done for 2 and 22, nd is appended on to the date variable 'day'. The
 
 ![Datetime Print](Images/datetime-print-variables.JPG "Datetime Print")
 
-In the last section of the program a few new variables are constructed to give th correct requested date format in the question.
+In the last section of the program a few new variables are constructed to give the correct requested date and time format in the question.
 
 daymonth is created to display the day name and month, example January, Monday. see line 30
 year is just the year expressed as a 4 digit number, see line 32
 time is expressed as hr and minute with a colon between them, AM or PM s also appended to the right of the variable.
 
-Finally all the string variables are printed toghether in order with an at between year and time see line 37 above
+Finally all the string variables are printed toghether in order with the text 'at' between year and time variables see line 37 above
 
 
 ## Question 9: second.py
