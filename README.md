@@ -77,9 +77,9 @@ The result was the program printed out on a new line all the values of x between
 
 ## Question 4: collatz.py
 
-This program prompts the user to input any positive integer, then it outputs successive values of the following calculation, if the current value was even divide it by 2 and if it was odd multiply it by three and add one. THe program runs until the value of x reaches 1.
+This program prompts the user to input any positive integer it assigned to the variable 'x', then it outputs successive values of the following calculation, if the current value of 'x' is even divide it by 2 and if it is odd multiply it by three and add one. The program runs until the value of 'x' reaches 1.
 
-The first task in this program was to prompt the user, take in the value entered and check it its a positive number.
+The first task in this program was to prompt the user to enter a number, check it its a positive number and assign it to the variable 'x'.
 
 The while loop below checks if the value is a postive number, this is assigned to the integer variable x.
 
